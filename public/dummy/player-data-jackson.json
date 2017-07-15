@@ -1,0 +1,107 @@
+{
+
+	"player": {
+
+		"name": "Jackson",
+
+		"gamesWon": 333,
+
+		"platform": "PC",
+
+		"level": "50",
+
+		"rank": 5678
+	},
+
+	"herosByType": {
+
+		"offensive": [
+
+			{
+				"name": "genji",
+
+				"timePlayed": "3 Hours 33 minutes 33 seconds",
+
+				"heroSpecific": {
+
+					"draggonblad kills - average": 1.49,
+					"damage reflected - average": 374,
+					"dragonblade kills - most in game": 4,
+					"damage reflected": 5505
+
+				},
+
+				"average": {
+
+					"deaths - average": 6.79,
+					"solo kills - average": 1.9,
+					"objective time - average": "00:25",
+					"objective kills - average": 2.17,
+					"final blows - average": 4.07
+
+				}
+
+			},
+
+			{
+				"name": "tracer",
+
+				"timePlayed": "100 Hours",
+
+				"heroSpecific": {
+
+					"pulse bomb kills - average": 0.38,
+					"pulse bomb kills - most in game": 1
+				},
+
+				"average": {
+
+					"self healing - average": 339.42,
+					"deaths - average": 10.48,
+					"solo kills - average": 1.55,
+					"elminations - average": 11.64,
+					"damage done - average": 2776.43
+				}
+			},
+
+			{
+				"name": "reaper",
+
+				"timePlayed": "5 minutes",
+
+				"heroSpecific": {
+
+					"souls consumed": 1492,
+					"death blossom kills": 312,
+					"souls consumed - average": 8.88,
+					"death blossom kills - average": 1.85
+				},
+
+				"average": {
+
+					"melee final blows - average": 0.01,
+					"self healing - average": 361.54,
+					"solo kills - average": 4.33,
+					"eliminations - average": 12.05,
+					"damage done - average": 3189.81
+				}
+			}
+		],
+
+		"defensive": [
+
+			{
+				"name": "mei",
+				"timePlayed": "43 Hours 32 minutes 31 seconds"
+			},
+			{
+				"name": "junkrat",
+				"timePlayed": "1 Hour"
+			},
+			{
+				"name": "widow maker",
+				"timePlayed": "52 minutes"
+			}
+		]
+	}
+}

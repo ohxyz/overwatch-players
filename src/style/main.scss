@@ -1,0 +1,87 @@
+@import "./scss/reset";
+
+/* START: My CSS */
+
+$font-family: "Bebas Neue", serif;
+$font-s: 12px;
+$font-m: 16px;
+$font-l: 32px;
+$font-xl: 64px;
+$font-color: #333;
+$box-color: #ffffff;
+$box-shadow: 0 0 5px rgba(0, 0, 0, 1 );
+$border-radius: 2px;
+$border: 1px solid #ccc;
+$sans: arial, sans-serif;
+$viewport-padding: 8px;
+$gap: 8px;
+$search-section-height: 40px;
+$nav-panel-width: 48px + $gap;
+
+@font-face{
+    
+    font-family: "Open Sans";
+    src: url("./assets/OpenSans-Regular.ttf"), 
+         url("./assets/OpenSans-Regular.woff");
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+#search-section {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-left: 64px + $gap;
+    background-color: bisque;
+    height: $search-section-height;
+}
+
+#nav-panel {
+    position: fixed;
+    left: 0;
+    top: $search-section-height + $gap;
+    bottom: 0;
+    width: $nav-panel-width;
+    background-color: burlywood;
+    /*
+    display: flex;
+    align-items: center;
+    */
+}
+
+    #side-nav {
+        
+    }        
+        .side-nav-item{
+            
+            background-color: #eee;
+            width: 48px;
+            height: 48px;
+            text-align: center;
+            margin-bottom: 2px;
+        }
+
+#main-content {
+    
+    background-color: #eee;;
+    position: absolute;
+    top: $search-section-height + $gap;
+    left: $nav-panel-width + $gap;
+    right: $gap;
+
+}
+    #player-profile {
+         background-color: yellowgreen;
+    }
+
+    #stats-section {
+        margin-top: $gap;
+    }
+    
+        #featured-stats {
+            background-color: dodgerblue;
+        }
+        
